@@ -243,3 +243,65 @@ input[type="range"] {
 #clearAll span {
 	margin-right: 10px;
 }
+
+@media screen and (max-width:768px){
+	.main{
+		width: 90vw;
+		height: 90vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.Tools{
+		width: 100%;
+		height: 10%;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		cursor: pointer;
+		justify-content: flex-start;
+		overflow-x: scroll;
+		scrollbar-width: thin; /* Adiciona uma barra de rolagem fina */
+		padding: 5px;
+
+	}
+	.Tools ul {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		cursor: pointer;
+		transition: 0.4s;
+		white-space: nowrap; /* Evita que os botões quebrem em várias linhas */
+		justify-content: flex-start;
+		width: 100%;
+		height: 100%
+	}
+	.Tools ul li{
+		min-width: 100px; /* Define uma largura mínima para os botões */
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		cursor: pointer;
+		border: none;
+		background: none;
+		margin-right: 10px; 
+	}
+	.Tools ul li p{
+		display: none;
+	}
+	.content{
+		width: 100%;
+		height: 100%;
+	}
+	.image_holder button{
+		margin-top: 20px;
+	}
+	#clearALL{
+		
+	}
+}
