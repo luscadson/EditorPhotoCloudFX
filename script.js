@@ -99,7 +99,7 @@ list_options.forEach((list_option, index) => {
 
 
       if (image.getAttribute('src') == "") {
-         alert("Choose Image First");
+         alert("Escolha uma imagem primeiro");
       } else {
 
          options.style.transform = 'translateY(0px)';
@@ -121,7 +121,7 @@ list_options.forEach((list_option, index) => {
             }
 
          } else {
-            alert("Edit Your Image First");
+            alert("Edite sua imagem primeiro");
          }
 
       }
